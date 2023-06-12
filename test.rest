@@ -1,0 +1,15 @@
+GET  http://localhost:4000/post/author/6462e786b5adef970e5b48c4
+
+###
+
+POST http://localhost:4000/comment/6463b74776869725ea41a14c
+Content-Type: application/json
+
+{
+    "name": "test",
+    "comment": "21"
+}
+
+###
+
+DELETE http://localhost:4000/image/647471c3459f93adfbdb1406
